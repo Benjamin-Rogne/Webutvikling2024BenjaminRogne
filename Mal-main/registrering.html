@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form>
+            <ul>
+                <li><label>Name</label> <input type="te" placeholder="Type Name here..." pattern="[A-Za-zæøåÆØÅ ]{2,}" required></li>
+                <li><label>Email</label><input type="email" required placeholder="Type E-mail here..." id="email"></li>
+                <li><label>Password</label><input type="password" required placeholder="Type Password here..." id="Password"></li>
+                <li><label>Age</label><input type="number" min="18" max="99" required placeholder="Type Age here..." id="Age"></li>
+                <li><label>Birthday</label><input type="password" placeholder="Type passworde here..." id="password"></li>
+                <li><label>Gender</label>
+                    <label>Man</label><input type="radio" required value="Man">
+                    <label>Woman</label><input type="radio" required value="Woman">
+                    <label>Other</label><input type="radio" required value="Other">
+                </li>
+                <li><label>Country</label>
+                    <select name="Country" required id="Country">
+                    <option value="Norway">Norway</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Denmark">Denmark</option>
+                    </select>
+                </li>
+                <li><label>Privacy</label><input type="checkbox" required placeholder="yses" id="Privacy"></li>
+                <li><input type="submit" value="submit"></li>
+                
+            </ul>
+        </form>
+    </section>
+</body>
+</html>

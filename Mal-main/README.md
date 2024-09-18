@@ -1,2 +1,0 @@
-# Mal
-Mal for oppgaver
